@@ -1,0 +1,19 @@
+# ===============================
+# GitHub Languages Clean & Pro
+# Focus: Lua / JavaScript / Python
+# ===============================
+
+# Ignore non-code files
+*.md linguist-detectable=false
+*.txt linguist-detectable=false
+*.json linguist-detectable=false
+*.yml linguist-detectable=false
+*.yaml linguist-detectable=false
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.mp3 linguist-detectable=false
+
+# Force language detection
+*.lua linguist-language=Lua
+*.js linguist-language=JavaScript
+*.py linguist-language=Python
